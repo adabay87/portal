@@ -1,28 +1,54 @@
 /* Global rules */
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=chilax');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(154, 102, 102);
+    font-family: 'Quicksand', chilax;
     font-size: 0.95em;
     line-height: 1.5em;
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+    background-size: 2000px 1200px;
 }
 
 ::selection {
-    color: #000; 
-    background: #ff0;
+    color: rgb(106, 223, 246); 
+    background: rgb(99, 76, 78);
 }
 
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #fff;
+    background: rgb(215, 159, 159);
     line-height: 2.5em;
 }
 
+h1.page-header{
+    font-family: 'chilax', serif;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+ }
+  
+
+
 main.wrapper {
-    background-color: white;
+    background-color: rgb(208, 147, 147);
+    overflow: auto;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+ }
+ 
+ 
+ main.wrapper {
+    background-color: rgb(222, 169, 169);
     overflow: auto;
 }
 
@@ -37,13 +63,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:rgb(0, 139, 95);
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: rgb(0, 139, 95);
     text-decoration: none;
 }
 
