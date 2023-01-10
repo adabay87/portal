@@ -141,3 +141,29 @@ footer {
     }
     
 }
+
+menu-bar .fa
+{
+margin-right: auto;
+}
+.sub-menu{
+    display: none;
+}
+.displayIt{
+    display: inline;
+    list-style: none;
+    position: absolute;
+    width: fit-content;
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.sub-menu_opener{
+    display: inline-block;
+}
+
+
+

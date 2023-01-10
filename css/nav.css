@@ -5,7 +5,7 @@
     overflow: auto;
 }
 
-.topnav a {
+.topnav a, .sub-menu_opener {
     float: left;
     display: block;
     color: whitesmoke;
@@ -23,6 +23,7 @@
 .topnav .icon {
     display: none;
 }
+
 
 /* Responsive rules - apply when screen width is less than 1200px */
 

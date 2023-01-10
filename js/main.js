@@ -16,3 +16,17 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+let menuEl = document.querySelector(".sub-menu");
+
+let subMenuOpener = document.querySelector(".sub-menu_opener");
+function toggle(e) {
+    console.log(e.clientX)
+    let classIdentifier = menuEl.className;
+    if(classIdentifier === 'sub-menu'){
+        menuEl.className = "displayIt";
+    }else{
+        menuEl.className = "sub-menu"
+    }
+}
+
+subMenuOpener.addEventListener('click',toggle)
